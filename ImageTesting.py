@@ -52,15 +52,17 @@ def processRequest( json, data, headers, params ):
                     result = response.content
         else:
             print( "Error code: %d" % ( response.status_code ) )
+            print( response.content )
             print( "Message: %s" % ( response.json()['error']['message'] ) )
-
+			
         break
         
     return result
 	
 
 # URL direction to image
-urlImage = 'https://oxfordportal.blob.core.windows.net/vision/Analysis/3.jpg'
+urlImage = "https://raw.githubusercontent.com/oakhillroboticmakerlabs/CVfirstSample/master/samples/commonObstacles/bigObstacle4.jpg"
+# urlImage = 'https://oxfordportal.blob.core.windows.net/vision/Analysis/3.jpg'
 
 # Computer Vision parameters
 params = { 'visualFeatures' : 'Color,Categories'} 

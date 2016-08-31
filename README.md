@@ -73,3 +73,15 @@ Targeted, precise, delivery of fertilizer or pesticides via the weeder bot would
 * http://www.exowater.com/sensors
 * 
 
+## Sample Programs (snippets)
+
+* Microsoft Oxford Computer Vision Sample CVfirstSample>C:\Python27\python.exe ImageTesting.py
+
+
+## Python setup issues on windows elsewhere: 
+
+Add the following modules into python: 
+
+1. C:\Python27\Scripts>pip install numpy
+2. C:\Python27\Scripts>easy_install.exe requests
+

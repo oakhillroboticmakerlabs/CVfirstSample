@@ -1,0 +1,75 @@
+https://raw.githubusercontent.com/oakhillroboticmakerlabs/CVfirstSample/master/samples/commonObstacles/river2.jpg
+C:\grdev\ormlabs\CVfirstSample>c:\Python27\python.exe ImageTesting.py
+{
+	u 'description' : {
+		u 'captions' : [{
+				u 'text' : u 'a small boat in a body of water',
+				u 'confidence' : 0.8057737983150598
+			}
+		],
+		u 'tags' : [u 'outdoor', u 'water', u 'boat', u 'lake', u 'small', u 'bod
+			y', u 'river', u 'mountain', u 'large', u 'standing', u 'floating', u 'bridge', u 'man', u 'group', u 'train']
+	},
+	u 'tags' : [{
+			u 'confidence' : 0.9997184872627258,
+			u 'name' : u 'outdoor'
+		}, {
+			u 'confi
+			dence' : 0.9989151954650879,
+			u 'name' : u 'water'
+		}, {
+			u 'confidence' : 0.9970642924308777,
+			u 'name' : u 'tree'
+		}, {
+			u 'confidence' : 0.9903940558433533,
+			u 'name' : u 'sky'
+		}, {
+			u 'confidence' : 0.77801
+			913022995,
+			u 'name' : u 'nature'
+		}, {
+			u 'confidence' : 0.6520201563835144,
+			u 'name' : u 'lake'
+		}, {
+			u 'confidence' : 0.3771730661392212,
+			u 'name' : u 'shore'
+		}, {
+			u 'confidence' : 0.2532627284526825,
+			u
+			'name' : u 'waterside'
+		}, {
+			u 'confidence' : 0.1939157247543335,
+			u 'name' : u 'boat'
+		}, {
+			u 'confidence' : 0.10862750560045242,
+			u 'name' : u 'several'
+		}
+	],
+	u 'color' : {
+		u 'accentColor' : u '7D674E',
+		u 'do
+		minantColorForeground' : u 'White',
+		u 'dominantColorBackground' : u 'Grey',
+		u 'dominantColors' : [u 'Grey', u 'White'],
+		u 'isBWImg' : False
+	},
+	u 'requestId' : u 'bea6fa61-02ff-460f-b20e-a6d5d1fe8
+	cb3',
+	u 'imageType' : {
+		u 'clipArtType' : 0,
+		u 'lineDrawingType' : 0
+	},
+	u 'categories' : [{
+			u 'score' : 0.0078125,
+			u 'name' : u 'outdoor_'
+		}, {
+			u 'score' : 0.5703125,
+			u 'name' : u 'outdoor_waterside'
+		}
+	],
+	u 'metadata' : {
+		u 'width' : 2592,
+		u 'format' : u 'Jpeg',
+		u 'height' : 1944
+	}
+}

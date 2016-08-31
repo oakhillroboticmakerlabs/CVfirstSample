@@ -1,0 +1,61 @@
+swampy area 
+https://raw.githubusercontent.com/oakhillroboticmakerlabs/CVfirstSample/master/samples/commonObstacles/bigObstacle4.jpg
+C:\grdev\ormlabs\CVfirstSample>c:\Python27\python.exe ImageTesting.py
+{
+	u 'description' : {
+		u 'captions' : [{
+				u 'text' : u 'a flock of birds perched on top of a river',
+				u 'confidence' : 0.49781223525576473
+			}
+		],
+		u 'tags' : [u 'outdoor', u 'water', u 'nature', u 'grass',
+			u 'giraffe', u 'bird', u 'river', u 'lake', u 'pond', u 'standing', u 'surrounded', u 'small', u 'large', u 'body', u 'perched', u 'group', u 'many', u 'boat', u 'eating', u 'walking', u 'flock', u
+			'zoo', u 'grazing', u 'branch', u 'man']
+	},
+	u 'tags' : [{
+			u 'confidence' : 0.9998941421508789,
+			u 'name' : u 'tree'
+		}, {
+			u 'confidence' : 0.9853496551513672,
+			u 'name' : u 'outdoor'
+		}, {
+			u 'confidence' : 0
+			.9771929979324341,
+			u 'name' : u 'water'
+		}, {
+			u 'confidence' : 0.8260066509246826,
+			u 'name' : u 'nature'
+		}, {
+			u 'confidence' : 0.3157271146774292,
+			u 'name' : u 'surrounded'
+		}, {
+			u 'confidence' : 0.30783
+			86187553406,
+			u 'name' : u 'pond'
+		}
+	],
+	u 'color' : {
+		u 'accentColor' : u '344C63',
+		u 'dominantColorForeground' : u 'Grey',
+		u 'dominantColorBackground' : u 'Grey',
+		u 'dominantColors' : [u 'Grey'],
+		u 'isB
+		WImg' : False
+	},
+	u 'requestId' : u 'd2db716d-6162-41e8-9985-4bc57c764d6a',
+	u 'imageType' : {
+		u 'clipArtType' : 0,
+		u 'lineDrawingType' : 0
+	},
+	u 'categories' : [{
+			u 'score' : 0.01953125,
+			u 'name' : u 'ou
+			tdoor_'
+		}
+	],
+	u 'metadata' : {
+		u 'width' : 2592,
+		u 'format' : u 'Jpeg',
+		u 'height' : 1944
+	}
+}

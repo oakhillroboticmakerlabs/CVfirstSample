@@ -76,6 +76,14 @@ Targeted, precise, delivery of fertilizer or pesticides via the weeder bot would
 * http://www.exowater.com/sensors
 * 
 
+# Computer Vision Samples: 
+
+1. https://cloud.google.com/vision/pricing
+2. https://www.microsoft.com/cognitive-services/en-us/computer-vision-api
+3. https://www.tensorflow.org/versions/r0.10/get_started/index.html
+4. http://deeplearning4j.org/compare-dl4j-torch7-pylearn.html#ml
+
+
 ## Sample Programs (snippets)
 
 * Microsoft Oxford Computer Vision Sample CVfirstSample>C:\Python27\python.exe ImageTesting.py

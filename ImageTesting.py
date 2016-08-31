@@ -62,12 +62,12 @@ def processRequest( json, data, headers, params ):
 	
 
 # URL direction to image
-# urlImage = "https://raw.githubusercontent.com/oakhillroboticmakerlabs/CVfirstSample/master/samples/commonObstacles/bigObstacle4.jpg"
+#urlImage = "https://raw.githubusercontent.com/oakhillroboticmakerlabs/CVfirstSample/master/samples/commonObstacles/bigObstacle4.jpg"
 # urlImage = 'https://oxfordportal.blob.core.windows.net/vision/Analysis/3.jpg'
-# urlImage = "https://raw.githubusercontent.com/oakhillroboticmakerlabs/CVfirstSample/master/samples/Label4-Yellow-True.PNG"
+urlImage = "https://raw.githubusercontent.com/oakhillroboticmakerlabs/CVfirstSample/master/samples/Label4-Yellow-True.PNG"
 # urlImage = "https://raw.githubusercontent.com/oakhillroboticmakerlabs/CVfirstSample/master/samples/commonObstacles/farm.jpg"
-urlImage = "https://raw.githubusercontent.com/oakhillroboticmakerlabs/CVfirstSample/master/samples/commonObstacles/river2.jpg"
-
+# urlImage = "https://raw.githubusercontent.com/oakhillroboticmakerlabs/CVfirstSample/master/samples/commonObstacles/river2.jpg"
+print('analyzing urlImage= '+urlImage)
 # Computer Vision parameters
 params = { 'visualFeatures' : 'Color,Categories,Description,Tags,ImageType'} 
 

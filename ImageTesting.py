@@ -61,8 +61,8 @@ def processRequest( json, data, headers, params ):
 	
 
 # URL direction to image
-urlImage = "https://raw.githubusercontent.com/oakhillroboticmakerlabs/CVfirstSample/master/samples/commonObstacles/bigObstacle4.jpg"
-# urlImage = 'https://oxfordportal.blob.core.windows.net/vision/Analysis/3.jpg'
+# urlImage = "https://raw.githubusercontent.com/oakhillroboticmakerlabs/CVfirstSample/master/samples/commonObstacles/bigObstacle4.jpg"
+urlImage = 'https://oxfordportal.blob.core.windows.net/vision/Analysis/3.jpg'
 
 # Computer Vision parameters
 params = { 'visualFeatures' : 'Color,Categories'} 
@@ -80,16 +80,16 @@ print(result)
 
 if result is not None:
 	print('writing result to file!')
-	f.close()
-	f2 = open('result', 'w')
-	f2.write(result)
-	f2.close()
+	f0 = open('result', 'w')
+	f0.write(str(result))
+	f0.close()
     # Load the original image, fetched from the URL
 	arr = np.asarray( bytearray( requests.get( urlImage ).content ), dtype=np.uint8 )
 	# print('writing arr ')
 	# img = cv2.cvtColor( cv2.imdecode( arr, -1 ), cv2.COLOR_BGR2RGB )
 	f = open('arr', 'w')
 	f.write(arr)
+	f.close()
 	print('writing img to file!')
 	# f.close()
 	# f2 = open('img', 'w')

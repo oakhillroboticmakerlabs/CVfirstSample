@@ -1,6 +1,9 @@
 # CVfirstSample
 CSI Clue Challenge 2015 initial notes, code, how-to, samples, tests, on Robotic Vision, Pattern and Image Recognition
 
+Cool website Sample: http://oakhillroboticmakerlabs.github.io/CVfirstSample/
+Click wiki above or submit an issue for a bug, question, or improvement. 
+
 Description of the Oak Hill Robotics Makerspace 
 
 The Oak Hill Robotics Makerspace provides a publicly accessible  robotics makerspace  for  Northeast Ohio that will encourage and support efforts to increase public awareness, understanding, and implications  of  new and upcoming trends and innovations in robotics-based technologies that have the potential to impact the daily lives of all citizens. ORM will provide a public space where individuals  can come  together to learn how to build, program, and  collaborate on low-cost, open-source robots and robotics-based projects that will benefit the community.  The ORM will also serve as an external space and resource for robotics education programs and projects at state universities, and technical schools and groups in Northeast Ohio.

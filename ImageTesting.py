@@ -2,6 +2,7 @@ from __future__ import print_function
 import time 
 import requests
 import operator
+import json
 import numpy as np
 
 # Python Image Testing Example 
@@ -62,10 +63,12 @@ def processRequest( json, data, headers, params ):
 
 # URL direction to image
 # urlImage = "https://raw.githubusercontent.com/oakhillroboticmakerlabs/CVfirstSample/master/samples/commonObstacles/bigObstacle4.jpg"
-urlImage = 'https://oxfordportal.blob.core.windows.net/vision/Analysis/3.jpg'
+# urlImage = 'https://oxfordportal.blob.core.windows.net/vision/Analysis/3.jpg'
+# urlImage = "https://raw.githubusercontent.com/oakhillroboticmakerlabs/CVfirstSample/master/samples/Label4-Yellow-True.PNG"
+urlImage = "https://raw.githubusercontent.com/oakhillroboticmakerlabs/CVfirstSample/master/samples/commonObstacles/farm.jpg"
 
 # Computer Vision parameters
-params = { 'visualFeatures' : 'Color,Categories'} 
+params = { 'visualFeatures' : 'Color,Categories,Description,Tags,ImageType'} 
 
 headers = dict()
 headers['Ocp-Apim-Subscription-Key'] = _key
@@ -80,7 +83,7 @@ print(result)
 
 if result is not None:
 	print('writing result to file!')
-	f0 = open('result', 'w')
+	f0 = open('result.json', 'w')
 	f0.write(str(result))
 	f0.close()
     # Load the original image, fetched from the URL
@@ -95,3 +98,5 @@ if result is not None:
 	# f2 = open('img', 'w')
 	# f2.write(img)
 	# f2.close()
+
+print(json.JSONEncoder().encode(result))

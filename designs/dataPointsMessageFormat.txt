@@ -1,0 +1,34 @@
+# Data message format for output 
+
+Digital Elevation
+Model (DEM)
+photogrammetry contours
+3D point data, i.e. "point clouds".
+attribute (e.g. 0 default 1 ground 2 buildings 3 vegetation)
+
+data format layout=
+[	
+	deviceSourceName:"robot1-raspberypi2",
+	missionEventName:"2016-phase2-pond3", 	//this could be GUID, ID, some identifier to group data to a device & epoch/ phase
+	dataPointClouds:
+		{	pointTimeGuid:"uniqueID", 
+			dateTime:"2016-05-24T00:00:00.000",
+			"geometry" : {
+				"elevation" : 1608.637939453125,
+				"location" : {
+						"lat" : 39.73915360,
+						"lng" : -104.98470340
+					 }
+				},
+			ClassifiedType:"${objectName}",
+			Identity:"${objectName}+${uniqueID}",
+			data:{
+				dataType:"Camera", //dataTypes{"CameraData", "Photos", "Temperature","LIDR","PH","Acceleration","Hardness",""},
+				sensor:"Kinect", 
+				dataLocation:"", 
+				dataType:"Number", //dataTypes:{"Number", "String", "binary", "hex"},
+				dataRaw:""
+			}
+		},
+	
+]

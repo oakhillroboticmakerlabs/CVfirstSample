@@ -1,0 +1,63 @@
+analyzing urlImage= https://raw.githubusercontent.com/oakhillroboticmakerlabs/CVfirstSample/master/samples/commonObstacles/dam_obstacle.jpg
+{
+	u 'description' : {
+		u 'captions' : [{
+				u 'text' : u 'a flock of birds swimming in a river',
+				u 'confidence' : 0.5291774660216267
+			}
+		],
+		u 'tags' : [u 'outdoor', u 'water', u 'grass', u 'pond', u 'lake', u 'river', u 'standing', u 'swimming', u 'small', u 'floating', u 'surrounded', u 'bird', u 'walking', u 'body', u 'green', u 'large', u 'group', u 'enclosure', u 'grazing', u 'grassy', u 'zoo', u 'herd', u 'flock', u 'man', u 'field', u 'boat']
+	},
+	u 'tags' : [{
+			u 'confidence' : 0.9966020584106445,
+			u 'name' : u 'tree'
+		}, {
+			u 'confidence' : 0.9961158037185669,
+			u 'name' : u 'outdoor'
+		}, {
+			u 'confidence' : 0.9947722554206848,
+			u 'name' : u 'water'
+		}, {
+			u 'confidence' : 0.7889309525489807,
+			u 'name' : u 'pond'
+		}, {
+			u 'confidence' : 0.7643612623214722,
+			u 'name' : u 'lake'
+		}, {
+			u 'confidence' : 0.6380631327629089,
+			u 'name' : u 'nature'
+		}, {
+			u 'confidence' : 0.36733824014663696,
+			u 'name' : u 'swimming',
+			u 'hint' : u 'sport'
+		}, {
+			u 'confidence' : 0.2808776795864105,
+			u 'name' : u 'surrounded'
+		}
+	],
+	u 'color' : {
+		u 'accentColor' : u '8A5C41',
+		u 'dominantColorForeground' : u 'Grey',
+		u 'dominantColorBackground' : u 'Black',
+		u 'dominantColors' : [u 'Grey'],
+		u 'isBWImg' : False
+	},
+	u 'requestId' : u '525bd8b2-25ac-4764-9fab-fcde13ef81f6',
+	u 'imageType' : {
+		u 'clipArtType' : 0,
+		u 'lineDrawingType' : 0
+	},
+	u 'categories' : [{
+			u 'score' : 0.0078125,
+			u 'name' : u 'outdoor_'
+		}, {
+			u 'score' : 0.3828125,
+			u 'name' : u 'outdoor_waterside'
+		}
+	],
+	u 'metadata' : {
+		u 'width' : 760,
+		u 'format' : u 'Jpeg',
+		u 'height' : 506
+	}
+}

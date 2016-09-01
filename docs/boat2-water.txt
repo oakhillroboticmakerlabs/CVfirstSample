@@ -1,0 +1,67 @@
+{
+	u 'description' : {
+		u 'captions' : [{
+				u 'text' : u 'a large body of water surrounded by trees',
+				u 'confidence' : 0.5768318403296167
+			}
+		],
+		u 'tags' : [u 'outdoor', u 'water', u 'nature', u 'lake', u 'river', u 'mountain', u 'forest', u 'boat', u 'body', u 'area', u 'large', u 'surrounded', u 'bridge', u 'green', u 'train', u 'pond', u 'floating', u 'standing', u 'traveling', u 'group', u 'plane', u 'man', u 'parked', u 'white', u 'field']
+	},
+	u 'tags' : [{
+			u 'confidence' : 0.9997331500053406,
+			u 'name' : u 'tree'
+		}, {
+			u 'confidence' : 0.9967750906944275,
+			u 'name' : u 'outdoor'
+		}, {
+			u 'confidence' : 0.9843107461929321,
+			u 'name' : u 'water'
+		}, {
+			u 'confidence' : 0.911584734916687,
+			u 'name' : u 'nature'
+		}, {
+			u 'confidence' : 0.866068959236145,
+			u 'name' : u 'lake'
+		}, {
+			u 'confidence' : 0.7525455355644226,
+			u 'name' : u 'river'
+		}, {
+			u 'confidence' : 0.39653345942497253,
+			u 'name' : u 'forest'
+		}, {
+			u 'confidence' : 0.26142263412475586,
+			u 'name' : u 'wooded'
+		}, {
+			u 'confidence' : 0.23041212558746338,
+			u 'name' : u 'surrounded'
+		}, {
+			u 'confidence' : 0.13476347923278809,
+			u 'name' : u 'day'
+		}
+	],
+	u 'color' : {
+		u 'accentColor' : u '0F6CBC',
+		u 'dominantColorForeground' : u 'Grey',
+		u 'dominantColorBackground' : u 'Blue',
+		u 'dominantColors' : [u 'Blue', u 'Grey'],
+		u 'isBWImg' : False
+	},
+	u 'requestId' : u 'bf371176-25f7-4afa-82ea-29c4dc1c1c07',
+	u 'imageType' : {
+		u 'clipArtType' : 0,
+		u 'lineDrawingType' : 0
+	},
+	u 'categories' : [{
+			u 'score' : 0.015625,
+			u 'name' : u 'outdoor_'
+		}, {
+			u 'score' : 0.734375,
+			u 'name' : u 'outdoor_waterside'
+		}
+	],
+	u 'metadata' : {
+		u 'width' : 2592,
+		u 'format' : u 'Jpeg',
+		u 'height' : 1944
+	}
+}

@@ -9,9 +9,9 @@ import numpy as np
 # Variables
 
 _url = 'https://api.projectoxford.ai/vision/v1/analyses'
-_key = 'ef8e933d53764fc7bc9a9eac9f381923' #Here you have to paste your primary key
+_key = '08284d968e4742b098a136ecfe11e436' #Here you have to paste your primary key
 _maxNumRetries = 1
-
+print ("key="+ _key)
 def processRequest( json, data, headers, params ):
 
     """
@@ -64,9 +64,13 @@ def processRequest( json, data, headers, params ):
 # URL direction to image
 #urlImage = "https://raw.githubusercontent.com/oakhillroboticmakerlabs/CVfirstSample/master/samples/commonObstacles/bigObstacle4.jpg"
 # urlImage = 'https://oxfordportal.blob.core.windows.net/vision/Analysis/3.jpg'
-urlImage = "https://raw.githubusercontent.com/oakhillroboticmakerlabs/CVfirstSample/master/samples/Label4-Yellow-True.PNG"
+#urlImage = "https://raw.githubusercontent.com/oakhillroboticmakerlabs/CVfirstSample/master/samples/Label4-Yellow-True.PNG"
 # urlImage = "https://raw.githubusercontent.com/oakhillroboticmakerlabs/CVfirstSample/master/samples/commonObstacles/farm.jpg"
 # urlImage = "https://raw.githubusercontent.com/oakhillroboticmakerlabs/CVfirstSample/master/samples/commonObstacles/river2.jpg"
+#rlImage = "https://raw.githubusercontent.com/oakhillroboticmakerlabs/CVfirstSample/master/samples/commonObstacles/boatFront2.jpg"
+urlImage = "https://raw.githubusercontent.com/oakhillroboticmakerlabs/CVfirstSample/master/samples/commonObstacles/dam_obstacle.jpg"
+
+
 print('analyzing urlImage= '+urlImage)
 # Computer Vision parameters
 params = { 'visualFeatures' : 'Color,Categories,Description,Tags,ImageType'} 
